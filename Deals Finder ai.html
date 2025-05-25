@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abstract Flowing Wallpaper</title>
+    <script id="omnidimension-web-widget" async src="https://backend.omnidim.io/web_widget.js?secret_key=5f03a32244ad1f8be6ed459418127576"></script>
+    <meta name="description" content="Find the best deals on gadgets, fashion, and more with Deals Finder AI. Modern design, live chat, and top offers updated daily!">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%234a90e2'/><text x='50%' y='58%' font-size='48' text-anchor='middle' fill='white' font-family='Arial' dy='.3em'>💸</text></svg>">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body, html {
+            height: 100%;
+            background: #f7f8fa;
+            font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+        }
+        .wallpaper {
+            display: none; /* Hide animated wallpaper for minimal look */
+        }
+        .site-header {
+            width: 100%;
+            background: #fff;
+            color: #222;
+            padding: 32px 0 18px 0;
+            text-align: center;
+            font-size: 2.2rem;
+            font-family: inherit;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            border-bottom: 1px solid #ececec;
+        }
+        .deals-section {
+            margin: 48px auto 0 auto;
+            width: 100%;
+            max-width: 540px;
+            background: #fff;
+            color: #222;
+            border-radius: 12px;
+            padding: 36px 28px 24px 28px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+        }
+        .deals-section h2 {
+            margin-bottom: 24px;
+            font-size: 1.35rem;
+            color: #3a7bd5;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        .deal-item {
+            background: #f3f4f6;
+            border-radius: 8px;
+            margin-bottom: 18px;
+            padding: 18px 16px;
+            box-shadow: none;
+            border: 1px solid #ececec;
+            transition: background 0.15s;
+        }
+        .deal-item:hover {
+            background: #e9f1fb;
+        }
+        .deal-item:last-child { margin-bottom: 0; }
+        .deal-title { font-size: 1.08rem; font-weight: 600; color: #2d5fa4; }
+        .deal-desc { font-size: 0.98rem; margin-top: 6px; color: #444; }
+        footer {
+            position:static;
+            width:100vw;
+            text-align:center;
+            padding:18px 0 10px 0;
+            background:#fff;
+            color:#aaa;
+            font-family:inherit;
+            font-size:0.98rem;
+            letter-spacing:0.5px;
+            border-top:1px solid #ececec;
+            margin-top:48px;
+        }
+        /* Hide Omnidimension widget centering override for minimal look */
+        #omnidimension-web-widget, .omnidimension-widget, [class*="omnidimension"] {
+            left: auto !important;
+            right: 24px !important;
+            bottom: 24px !important;
+            transform: none !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="site-header">Deals Finder</div>
+    <div class="deals-section">
+        <h2>Today's Top Deals</h2>
+        <div class="deal-item">
+            <div class="deal-title">SuperSaver Sneakers - 40% OFF</div>
+            <div class="deal-desc">Get the best running shoes at just ₹2,999. Free shipping and 2-day delivery!</div>
+        </div>
+        <div class="deal-item">
+            <div class="deal-title">NoiseFit Smartwatch - ₹1,499 Only</div>
+            <div class="deal-desc">Track your fitness and notifications with this stylish smartwatch. Limited time offer!</div>
+        </div>
+        <div class="deal-item">
+            <div class="deal-title">Bluetooth Earbuds - Buy 1 Get 1 Free</div>
+            <div class="deal-desc">Enjoy high-quality sound and a free extra pair. Offer valid till stocks last.</div>
+        </div>
+    </div>
+    <div class="wallpaper"></div>
+</body>
+</html>
