@@ -48,7 +48,6 @@ A visually stunning, interactive deals-finding website with an animated abstract
 
 ## 📄 License
 
-MIT License (or your preferred license)
 
 ---
 
