@@ -25,7 +25,7 @@ A visually stunning, interactive deals-finding website with an animated abstract
    ```
 
 2. **Open the Website**
-   - Open `abstract_wallpaper.html` in your web browser (Chrome, Edge, Firefox, etc).
+   - Open `Deals finder ai.html` in your web browser (Chrome, Edge, Firefox, etc).
 
 3. **Explore the Features**
    - Browse the animated deals section.
@@ -35,7 +35,7 @@ A visually stunning, interactive deals-finding website with an animated abstract
 ## 📝 Customization
 
 - **Add More Deals:**  
-  Edit the `.deals-section` in `abstract_wallpaper.html` to add or update deals.
+  Edit the `.deals-section` in `Deals finder ai.html` to add or update deals.
 - **Change Widget Position:**  
   Adjust the CSS targeting the widget in the `<style>` section.
 - **Voice Features:**  
